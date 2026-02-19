@@ -37,8 +37,8 @@ Q1:
 from collections import defaultdict
 # 1. Training Corpus
 corpus = [
-    ["<s>", "I", "love", "NLP", "</s>"],
-    ["<s>", "I", "love", "deep", "learning", "</s>"],
+    ["<s>","I", "love", "NLP", "</s>"],
+    ["<s>","I", "love", "deep", "learning", "</s>"],
     ["<s>", "deep", "learning", "is", "fun", "</s>"]
 ]
 # 2. Compute Unigram and Bigram Counts
@@ -135,3 +135,4 @@ Total Probability = 0.16666666666666666
 FINAL RESULT:
 Model prefers: <s> I love NLP </s>
 Reason: Higher probability under bigram model (more frequent transitions)
+
